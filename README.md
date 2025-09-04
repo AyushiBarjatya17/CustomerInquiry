@@ -2,6 +2,14 @@
 
 A modern iOS application built with SwiftUI featuring a comprehensive dashboard and chat functionality.
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Graph View
+![Graph](./screenshots/graph.png)
+
 ## 🏗️ Architecture
 
 The app follows a clean, modular architecture with clear separation of concerns:
