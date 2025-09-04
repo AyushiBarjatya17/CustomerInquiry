@@ -20,11 +20,11 @@
             landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "3871A55A-BBEF-4CBA-AEA4-B38F021D3E9F - 22922bff1b2ceb2b"
+                  uuid = "3871A55A-BBEF-4CBA-AEA4-B38F021D3E9F - ea61c3b99dd96d2b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "CustomerInquiryApp.iPhoneDashboardView.statisticsSection.getter : some"
+                  symbolName = "closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;CustomerInquiryApp.DashboardEvent&gt;, Foundation.UUID, CustomerInquiryApp.EventCardView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;CustomerInquiryApp.DashboardEvent&gt;, Foundation.UUID, CustomerInquiryApp.EventCardView&gt;&gt;)&gt; in CustomerInquiryApp.iPhoneDashboardView.eventCardsSection.getter : some"
                   moduleName = "CustomerInquiryApp.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ayushibarjatya/Desktop/Assignment/CustomerInquiryApp/CustomerInquiryApp/Views/Dashboard/iPhoneDashboardView.swift"
@@ -34,11 +34,11 @@
                   endingLineNumber = "93">
                </Location>
                <Location
-                  uuid = "3871A55A-BBEF-4CBA-AEA4-B38F021D3E9F - 920ba592a81a4dab"
+                  uuid = "3871A55A-BBEF-4CBA-AEA4-B38F021D3E9F - 825c2e7dfa43e3b1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer)&gt;&gt;, SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;CustomerInquiryApp.DashboardStat&gt;, Foundation.UUID, CustomerInquiryApp.StatCardView&gt;&gt;)&gt; in CustomerInquiryApp.iPhoneDashboardView.statisticsSection.getter : some"
+                  symbolName = "closure #1 (CustomerInquiryApp.DashboardEvent) -&gt; CustomerInquiryApp.EventCardView in closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;CustomerInquiryApp.DashboardEvent&gt;, Foundation.UUID, CustomerInquiryApp.EventCardView&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;CustomerInquiryApp.DashboardEvent&gt;, Foundation.UUID, CustomerInquiryApp.EventCardView&gt;&gt;)&gt; in CustomerInquiryApp.iPhoneDashboardView.eventCardsSection.getter : some"
                   moduleName = "CustomerInquiryApp.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ayushibarjatya/Desktop/Assignment/CustomerInquiryApp/CustomerInquiryApp/Views/Dashboard/iPhoneDashboardView.swift"

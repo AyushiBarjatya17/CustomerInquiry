@@ -56,6 +56,7 @@ class DashboardViewModel: ObservableObject {
     @Published var stats: [DashboardStat] = []
     @Published var chatData: [ChatData] = []
     @Published var recentChats: [RecentChat] = []
+    @Published var brands: [Brand] = []
     @Published var userProfile = UserProfile(name: "Jonathan Smith", avatar: "person.circle")
     @Published var selectedTimeFrame: TimeFrame = .week
     @Published var showChatView = false
@@ -112,6 +113,69 @@ class DashboardViewModel: ObservableObject {
             RecentChat(avatar: "S", name: "Shabbat", description: "Talmud / Seder Moed", avatarColor: "blue"),
             RecentChat(avatar: "G", name: "GPT-4", description: "Generic chatbots", avatarColor: "green"),
             RecentChat(avatar: "B", name: "Bereshit", description: "Lech Lecha", avatarColor: "orange")
+        ]
+        
+        brands = [
+            Brand(
+                name: "Apple",
+                logo: "🍎",
+                description: "Innovation in technology",
+                color: .blue,
+                gradientColors: [.blue, .purple],
+                category: "Technology",
+                rating: 4.8,
+                isFeatured: true
+            ),
+            Brand(
+                name: "Nike",
+                logo: "👟",
+                description: "Just Do It",
+                color: .orange,
+                gradientColors: [.orange, .red],
+                category: "Sports",
+                rating: 4.6,
+                isFeatured: true
+            ),
+            Brand(
+                name: "Starbucks",
+                logo: "☕",
+                description: "Coffee culture",
+                color: .green,
+                gradientColors: [.green, .mint],
+                category: "Food & Beverage",
+                rating: 4.4,
+                isFeatured: false
+            ),
+            Brand(
+                name: "Tesla",
+                logo: "🚗",
+                description: "Electric future",
+                color: .red,
+                gradientColors: [.red, .pink],
+                category: "Automotive",
+                rating: 4.7,
+                isFeatured: true
+            ),
+            Brand(
+                name: "Netflix",
+                logo: "🎬",
+                description: "Entertainment streaming",
+                color: .purple,
+                gradientColors: [.purple, .indigo],
+                category: "Entertainment",
+                rating: 4.3,
+                isFeatured: false
+            ),
+            Brand(
+                name: "Spotify",
+                logo: "🎵",
+                description: "Music streaming",
+                color: .green,
+                gradientColors: [.green, .teal],
+                category: "Music",
+                rating: 4.5,
+                isFeatured: true
+            )
         ]
     }
     
@@ -210,6 +274,7 @@ struct DashboardView: View {
     // MARK: - Main Content
     private var mainContent: some View {
         VStack(spacing: horizontalSizeClass == .regular ? 24 : 12) {
+                       
             // Event Cards Row
             eventCardsRow
             
@@ -218,7 +283,16 @@ struct DashboardView: View {
             
             // Charts and Recent Chats Row
             chartsAndChatsRow
+            
+            // Brand Showcase Row
+            brandShowcaseRow
+
         }
+    }
+    
+    // MARK: - Brand Showcase Row
+    private var brandShowcaseRow: some View {
+        BrandShowcaseView(brands: viewModel.brands)
     }
     
     // MARK: - Event Cards Row
@@ -340,6 +414,9 @@ struct DashboardTopBar: View {
                         // Theme Toggle
                         ThemeToggleButton()
                         
+                        // Floating Particles Toggle
+                        FloatingParticlesToggleButton()
+                        
                         // User Profile
                         UserProfileView(
                             userName: viewModel.userProfile.name,
@@ -361,6 +438,9 @@ struct DashboardTopBar: View {
                         
                         // Theme Toggle
                         ThemeToggleButton()
+                        
+                        // Floating Particles Toggle
+                        FloatingParticlesToggleButton()
                     }
                     
                     // Bottom row - User Profile

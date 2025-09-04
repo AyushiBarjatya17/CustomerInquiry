@@ -25,7 +25,12 @@ struct AppRootView: View {
     @EnvironmentObject var themeManager: ThemeManager
     
     var body: some View {
-        ContentView()
-            .environment(\.theme, themeManager.currentTheme)
+        ZStack {
+            ContentView()
+                .environment(\.theme, themeManager.currentTheme)
+            
+            // Global Floating Particles Overlay
+            AppFloatingParticlesOverlay()
+        }
     }
 }

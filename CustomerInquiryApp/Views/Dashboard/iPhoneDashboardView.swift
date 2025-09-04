@@ -20,6 +20,9 @@ struct iPhoneDashboardView: View {
                 
                 // Welcome Message (now integrated in top bar)
                 
+                // Brand Showcase
+                brandShowcaseSection
+                
                 // Event Cards
                 eventCardsSection
                 
@@ -69,6 +72,11 @@ struct iPhoneDashboardView: View {
     }
     
     // MARK: - Welcome Message (now integrated in top bar)
+    
+    // MARK: - Brand Showcase Section
+    private var brandShowcaseSection: some View {
+        BrandShowcaseView(brands: viewModel.brands)
+    }
     
     // MARK: - Event Cards Section
     private var eventCardsSection: some View {
@@ -156,6 +164,9 @@ struct iPhoneDashboardTopBar: View {
             HStack(spacing: 12) {
                 // Theme Toggle
                 ThemeToggleButton()
+                
+                // Floating Particles Toggle
+                FloatingParticlesToggleButton()
                 
                 // User Profile
                 UserProfileView(
