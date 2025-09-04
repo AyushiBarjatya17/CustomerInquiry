@@ -4,11 +4,13 @@ A modern iOS application built with SwiftUI featuring a comprehensive dashboard 
 
 ## 📸 Screenshots
 
-### Dashboard
-![Dashboard](./screenshots/dashboard.png)
+### iPad/iPhone
+![Dashboard](./screenshots/sampleIPad.png)
+![Graph](./screenshots/sampleIPhone.png)
 
-### Graph View
-![Graph](./screenshots/graph.png)
+### Video
+![Dashboard](./screenshots/sampleVideo.mp4)
+
 
 ## 🏗️ Architecture
 
