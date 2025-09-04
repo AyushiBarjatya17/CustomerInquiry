@@ -21,9 +21,8 @@ struct APIPost: Codable {
 }
 
 class APIService: ObservableObject {
-    private let baseURL = "https://script.google.com/macros/s/AKfycbxBCxlPRo1t0CE4ibM0hhujMjhGb63EgPfguNQZhNx4L_P6z43_shQHf2ChralnXwY1/exec"
-    private let getPostsURL = "https://script.google.com/macros/s/AKfycbwlhscIlnxBpAhSjondd-FGbNnA4W2xmSIdxjGaHImAGQARkc2OghA1pKF76Kld09X1/exec"
-    
+    private let baseURL = "API key"
+    private let getPostsURL = "API key"
     func insertPost(title: String, content: String) async throws -> String {
         let json: [String: Any] = [
             "title": title,
