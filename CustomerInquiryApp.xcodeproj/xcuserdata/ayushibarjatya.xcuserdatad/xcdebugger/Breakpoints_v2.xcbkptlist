@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "48088314-8842-41D3-A829-961C7F37D69E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3871A55A-BBEF-4CBA-AEA4-B38F021D3E9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomerInquiryApp/Views/Dashboard/iPhoneDashboardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "iPhoneDashboardView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "3871A55A-BBEF-4CBA-AEA4-B38F021D3E9F - 22922bff1b2ceb2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomerInquiryApp.iPhoneDashboardView.statisticsSection.getter : some"
+                  moduleName = "CustomerInquiryApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ayushibarjatya/Desktop/Assignment/CustomerInquiryApp/CustomerInquiryApp/Views/Dashboard/iPhoneDashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93">
+               </Location>
+               <Location
+                  uuid = "3871A55A-BBEF-4CBA-AEA4-B38F021D3E9F - 920ba592a81a4dab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer)&gt;&gt;, SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;CustomerInquiryApp.DashboardStat&gt;, Foundation.UUID, CustomerInquiryApp.StatCardView&gt;&gt;)&gt; in CustomerInquiryApp.iPhoneDashboardView.statisticsSection.getter : some"
+                  moduleName = "CustomerInquiryApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ayushibarjatya/Desktop/Assignment/CustomerInquiryApp/CustomerInquiryApp/Views/Dashboard/iPhoneDashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
